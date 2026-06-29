@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ----- Project-specific additions -----
+
+# FastF1 cache (hundreds of MB — never track)
+cache/
+*/cache/
+
+# Build/QA artifacts
+slide-*.jpg
+notes_qa-*.jpg
+
+# macOS junk
+.DS_Store
+
+# Office lock files
+~$*
+
+# Backup files
+*.bak
